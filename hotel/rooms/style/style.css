@@ -1,0 +1,161 @@
+body {
+  border-radius: 50px;
+  background: linear-gradient(315deg, #ffe5d1, #dcc1b0);
+  box-shadow:  -41px -41px 82px #cfb6a6,
+               41px 41px 82px #fff6e0;
+               
+  }
+  
+  
+  .carousel-container {
+    position: relative;
+  }
+  
+  .carousel-title {
+    position: absolute;
+    top: 10px;
+    left: 32.5%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    color: #ffffff;
+  }
+  
+  .carousel {
+    width: 800px;
+    height: 600px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .carousel-inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-item {
+    flex: 0 0 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .carousel-item img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    top: 50px;
+    font: caption;
+    left: 0;
+    background-color: rgba(75, 73, 73, 0.8);
+    padding: 5px 10px;
+    font-size: 24px;
+    color: #fffdfd;
+  }
+  
+  .carousel-prev,
+  .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carousel-prev:hover,
+  .carousel-next:hover {
+    background-color: #ddd;
+  }
+  
+  .carousel-prev {
+    left: 10px;
+  }
+  
+  .carousel-next {
+    right: 10px;
+  }
+  
+  .carousel-caption-bottom {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #34c7d1;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #d6dadf;
+  }
+  
+  /* Стили для категории "В номере" */
+.left-category {
+    float: left;
+    width: 50%;
+    margin-right: 50px ;
+  }
+  
+  /* Стили для категории "В ванной комнате" */
+  .right-category {
+    float: right;
+    width: 40%;
+  }
+  
+  /* Стили для списков подкатегорий */
+  .details-list {
+    list-style-type: none;
+    padding: 0;
+    
+  }
+  
+  /* Стили для элементов подкатегорий */
+  .details-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Стили для маркера подкатегорий */
+  .details-list li .circle {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+  }
+  
+  /* Стили для заголовков категорий */
+  .details-heading {
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    
+  }

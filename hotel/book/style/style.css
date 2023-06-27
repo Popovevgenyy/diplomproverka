@@ -1,0 +1,33 @@
+body {
+    border-radius: 50px;
+    background: linear-gradient(315deg, #ffe5d1, #dcc1b0);
+    box-shadow:  -41px -41px 82px #cfb6a6,
+                 41px 41px 82px #fff6e0;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td[style*="background-color: green;"] {
+    background-color: green;
+    color: white;
+}
+
+td[style*="background-color: red;"] {
+    background-color: red;
+    color: white;
+}
+
